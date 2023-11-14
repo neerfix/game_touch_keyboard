@@ -1,0 +1,181 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+}
+
+.container{
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.btn-back{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 16px;
+	border: 1px solid #00AE98;
+	border-radius: 0px;
+	background-color: #ed4463;
+	color: white;
+	padding: 0.5em;
+	cursor: pointer;
+}
+
+.panel{
+	display: flex;
+	flex: 1;
+	position: fixed;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 15%;
+	padding: 5px;
+	background-color: #383838;
+	border-left: 5px solid #ffffff;
+	color: white;
+	flex-direction: column;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	justify-content: center;
+	align-content: center;
+}
+
+.games_container{
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 82%;
+	padding: 10px;
+	background-color: black;
+	flex-wrap: wrap;
+}
+
+.panel_count{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+}
+
+.count{
+	flex: 1;
+	font-size: 40px;
+}
+
+.char{
+	font-size: large;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+.a {
+	color: #ffF;
+}
+
+.b {
+	color: beige;
+}
+
+.c {
+	color: lightgrey;
+}
+
+.d {
+	color: bisque;
+}
+
+.e{
+	color: fuchsia;
+}
+
+.f{
+	color:aliceblue;
+}
+
+.g{
+	color: aquamarine;
+}
+
+.h{
+	color: aqua;
+}
+
+.i{
+	color: blue;
+}
+
+.j{
+	color: chartreuse;
+}
+
+.k{
+	color: dodgerblue;
+}
+
+.l{
+	color: deeppink;
+}
+
+.m{
+	color: darkorange;
+}
+
+.n{
+	color: red;
+}
+
+.o{
+	color: seagreen;
+}
+
+.p{
+	color: pink;
+}
+
+.q{
+	color: turquoise;
+}
+
+.r{
+	color: darkviolet;
+}
+
+.s{
+	color: brown;
+}
+
+.t{
+	color: orange;
+}
+
+.u{
+	color: lavenderblush;
+}
+
+.v{
+	color: crimson;
+}
+
+.w{
+	color: antiquewhite;
+}
+
+.x{
+	color: cornflowerblue;
+}
+
+.y{
+	color: yellow;
+}
+
+.z{
+	color: skyblue;
+}
